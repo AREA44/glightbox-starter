@@ -508,16 +508,7 @@ strong {
 }
 
 .four-cols .box {
-	width: 23.1%;
-}
-
-.four-cols .box:nth-child(4n+0) {
-	margin-right: 0;
-}
-
-.four-cols .box:nth-child(4n+1) {
-	clear: both;
-	margin-left: 0;
+	width: 100%;
 }
 
 .options-list {
@@ -689,6 +680,19 @@ footer a {
 		margin-left: 0;
 	}
 
+	.four-cols .box {
+		width: 23.1%;
+	}
+
+	.four-cols .box:nth-child(4n+0) {
+		margin-right: 0;
+	}
+	
+	.four-cols .box:nth-child(4n+1) {
+		clear: both;
+		margin-left: 0;
+	}
+	
 	.mcbutton {
 		width: auto;
 	}
